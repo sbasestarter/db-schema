@@ -1,0 +1,5 @@
+dbs="user demo"
+
+MYSQL_SECURE=" -p${MYSQL_ROOT_PASSWORD} "
+MYSQL_PARAMS=" -h 127.0.0.1 -u root -P 8306 ${MYSQL_SECURE}"
+
