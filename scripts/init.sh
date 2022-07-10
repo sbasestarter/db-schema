@@ -4,8 +4,6 @@
 SHELL_FOLDER=$(dirname $(readlink -f "$0"))
 source ${SHELL_FOLDER}/share.sh
 
-MYSQL_SECURE=" -p${MYSQL_ROOT_PASSWORD} "
-MYSQL_PARAMS=" -h 127.0.0.1 -u root -P 8306 ${MYSQL_SECURE}"
 
 pushd ${SHELL_FOLDER}/..
 
