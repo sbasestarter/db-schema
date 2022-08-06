@@ -1,6 +1,5 @@
 CREATE TABLE `news_info` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `source` varchar(255) DEFAULT NULL,
   `title` varchar(512) NOT NULL,
   `summary` text NOT NULL,
   `images_json` text NOT NULL,
